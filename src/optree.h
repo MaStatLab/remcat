@@ -121,7 +121,7 @@ class GBT {
 
  public:
 
-  GBT(unsigned int k) : k(k), root(new OPTREE_NODE(this, ~(~0 << k), ~(~0<<k), ~(~0 <<k), 0, 0, k )) {};
+  GBT(unsigned int k) : root(new OPTREE_NODE(this, ~(~0 << k), ~(~0<<k), ~(~0 <<k), 0, 0, k )), k(k) {};
   ~GBT();
     //map<INDEX_TYPE, OPTREE_NODE *>::iterator iter;
 
