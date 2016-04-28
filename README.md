@@ -1,6 +1,6 @@
 # remcat - REcursive Mixtures for Conditional Association Testing
 
-### Install
+This package carries out testing for conditional association in contigency tables using recursive mixture models.
 
 ### Install
 The package can be installed on Linux and Mac using `devtools`:
