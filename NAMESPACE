@@ -1,1 +1,2 @@
-exportPattern("^[[:alpha:]]+")
+useDynLib(remcat)
+export(remcat,remcat.2toK.ind.test.bf,plotroc)
