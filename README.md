@@ -11,6 +11,11 @@ library('devtools')
 devtools::install_github('remcat', 'MaStatLab')
 ```
 
+### Use
+
+```S
+remcat = function( xg.mat, xe.mat, y.vec, rho0)
+```
 
 ### Reference
 
